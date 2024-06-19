@@ -1,0 +1,14 @@
+name: example
+
+environment: 
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies: 
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod:
+
+flutter:
+  uses-material-design: true

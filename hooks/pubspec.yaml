@@ -1,0 +1,8 @@
+name: hooks
+
+environment: 
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  mason:
+  process_run: ^0.14.2
