@@ -13,8 +13,10 @@ Future<void> run(HookContext context) async {
 flutter create --empty --org $organization app/${projectName}_app
 
 melos bootstrap
-melos run pub_get_all
-melos run build_all
+melos run pub:get:all
+melos run build:all
+
+mason get
 ''');
 
   progress.complete();
