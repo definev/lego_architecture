@@ -4,18 +4,19 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:{{project_name}}_app/di/di_initializer.dart';
 import 'package:{{project_name}}_navigator/{{project_name}}_navigator.dart' as nav;
 
+ProviderContainer container = ProviderContainer(overrides: initializeOverrides());
+
 void main() {
-  initialize();
   runApp(
     UncontrolledProviderScope(
       container: container,
-      child: const MyApp(),
+      child: const {{project_name.pascalCase()}}App(),
     ),
   );
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class {{project_name.pascalCase()}}App extends StatelessWidget {
+  const {{project_name.pascalCase()}}App({super.key});
 
   @override
   Widget build(BuildContext context) {
