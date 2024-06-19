@@ -27,6 +27,10 @@ dependencies:
   example:
     path: ../../feature/example
 
+  # Configuration
+  {{project_name}}_configuration:
+    path: ../{{project_name}}_configuration
+
 dev_dependencies:
   flutter_lints:
 
