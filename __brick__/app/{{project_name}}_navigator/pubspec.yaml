@@ -15,8 +15,9 @@ dependencies:
   flutter_riverpod:
   go_router:
 
-  {{project_name}}_app:
-    path: ../{{project_name}}_app
+  # feature
+  example:
+    path: ../../feature/example
 
 dev_dependencies:
   build_runner:

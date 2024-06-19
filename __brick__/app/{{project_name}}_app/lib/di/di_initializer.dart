@@ -4,5 +4,5 @@ import 'package:{{project_name}}_navigator/{{project_name}}_navigator.dart' as n
 ProviderContainer container = ProviderContainer();
 
 void initialize() {
-  nav.initialize();
+  nav.initialize(container);
 }
