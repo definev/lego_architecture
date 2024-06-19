@@ -1,9 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 abstract class ExampleNavigation {
-  static final provider = Provider<ExampleNavigation>(
-    (ref) => throw UnimplementedError('You must override ExampleNavigation.provider in your app module'),
-  );
-
-  void openFirst();
+  static final provider = Provider<ExampleNavigation>((_) => throw UnimplementedError('You must provide a ExampleNavigation implementation in your app module'));
 }
