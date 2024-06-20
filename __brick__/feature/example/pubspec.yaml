@@ -17,6 +17,10 @@ dependencies:
   freezed_annotation:
   json_annotation:
 
+  # design system
+  design_system:
+    path: ../../core/design_system
+
 dev_dependencies:
   build_runner:
   freezed:
